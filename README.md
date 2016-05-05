@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Women TechMakers La Rioja
+# DevFest Update Day
 
 Usando:
 Material Design Template for DevFest 2015 Season
@@ -7,7 +7,7 @@ Material Design Template for DevFest 2015 Season
 Mas informacion:
 Demo you can find here: http://vg.am/devfest
 
-Repositorio para la creación de la web Women TechMaker La Rioja 2016
+Repositorio para la creación de la web devfestupdateday La Rioja 2016
 Usando las plantillas del devfest 2015..
 =======
 # devfestupdateday
