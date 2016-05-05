@@ -1,0 +1,39 @@
+application: womentechmaker
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+builtins:
+- remote_api: on
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+
+- url: /upload/(.*\.(jpg$|png$|gif$))
+  static_files: upload/\1
+  upload: upload/(.*\.(jpg$|png$|gif$))
+  application_readable: true
+
+- url: /css/(.*\.(jpg$|png$|gif$|css$))
+  mime_type: text/css
+  static_files: css/\1
+  upload: css/(.*\.(jpg$|png$|gif$|css$))
+  application_readable: true
+
+- url: /js/(.*\.(js$))
+  mime_type: text/javascript
+  static_files: js/\1
+  upload: js/(.*\.(js$))
+  application_readable: true
+
+- url: /fonts/(.*\.(woff$|woff2$|ttf$|eot$|svg$))
+  static_files: fonts/\1
+  upload: fonts/(.*\.(woff$|woff2$|ttf$|eot$|svg$))
+  application_readable: true
+
+- url: .*
+  script: index.html
