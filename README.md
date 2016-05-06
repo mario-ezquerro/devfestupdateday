@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DevFest Update Day
 
 Usando:
@@ -12,4 +12,3 @@ Usando las plantillas del devfest 2015..
 =======
 # devfestupdateday
 Repositorio para el evento devfestupdateday de La Rioja que se almacena en appenginer.
->>>>>>> 8276a0900c909ef4c70060b4767350da9c9b1b39
