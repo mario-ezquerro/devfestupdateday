@@ -1,5 +1,5 @@
-application: womentechmaker
-version: 1
+application: devfestupdateday
+version: 2
 runtime: php55
 api_version: 1
 threadsafe: yes
