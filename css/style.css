@@ -373,6 +373,7 @@ nav ul li.active > a {
 .intro-text {
   font-size: 17px;
   line-height: 32px;
+    text-align: left;
 }
 
 .intro-features {
