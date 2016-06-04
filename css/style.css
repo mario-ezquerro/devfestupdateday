@@ -1,10 +1,6 @@
 canvas#spiders {
   width:100%;
-<<<<<<< HEAD
 /*  height:auto;*/
-=======
-  max-height:500px;
->>>>>>> origin/master
 /*  background-color: rgba(63,81,181,0.4);*/
   background-color: none;
 }
@@ -1111,10 +1107,7 @@ textarea.form-control {
 
 .page-title {
 /*  background: url(../upload/blog_title_bg.jpg) no-repeat fixed;*/
-<<<<<<< HEAD
 /*
-=======
->>>>>>> origin/master
   background: url(../upload/back-fombera.jpg) no-repeat fixed;    
   position: relative;
   background-position: 50% 0%;
